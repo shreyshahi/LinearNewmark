@@ -12,21 +12,15 @@ Dtg : The discreet time interval at which the input acceleration is recorded
 
 The script returns the following:
 
-S
+S  
+|-S.d : Spectral displacement  
+|-S.v : pseudo spectral velocity [S.d * ( 2 * pi / T )]  
+|-S.a : pseudo spectral acceleration [S.d * ( 2 * pi / T ) ^ 2]  
 
-|-S.d : Spectral displacement
-
-|-S.v : pseudo spectral velocity [S.d * ( 2 * pi / T )]
-
-|-S.a : pseudo spectral acceleration [S.d * ( 2 * pi / T ) ^ 2]
-
-H
-
-|-H.d : Time history of the displacement response of the oscillator
-
-|-H.v : Time history of the velocity response of the oscillator
-
-|-H.a : Time history of the acceleration response of the oscillator
+H  
+|-H.d : Time history of the displacement response of the oscillator  
+|-H.v : Time history of the velocity response of the oscillator  
+|-H.a : Time history of the acceleration response of the oscillator  
 
 Compilation
 ===========

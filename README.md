@@ -22,6 +22,12 @@ H
 |-H.v : Time history of the velocity response of the oscillator
 |-H.a : Time history of the acceleration response of the oscillator
 
+Compilation
+===========
+
+Before using the script in Matlab, the C file needs to be compiled into a mex file.
+To compile the C file type "mex linearNewmark_TH.c" in the matlab command line window and follow the onscreen instructions. After compilation you can call the getLinearSpectra_withTH.m as any standard Matlab function.
+
 License
 =======
 
